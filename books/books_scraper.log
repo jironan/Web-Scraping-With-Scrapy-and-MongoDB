@@ -1,0 +1,210 @@
+2025-05-09 14:32:37 [twisted] CRITICAL: Unhandled error in Deferred:
+2025-05-09 14:32:37 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 74, in load_object
+    obj = getattr(mod, name)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'books.pipelines' has no attribute 'BooksPipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\twisted\internet\defer.py", line 2017, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 152, in crawl
+    self.engine = self._create_engine()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 166, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\engine.py", line 102, in __init__
+    self.scraper: Scraper = Scraper(crawler)
+                            ^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\scraper.py", line 101, in __init__
+    self.itemproc: ItemPipelineManager = itemproc_cls.from_crawler(crawler)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 77, in from_crawler
+    return cls._from_settings(crawler.settings, crawler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 86, in _from_settings
+    mwcls = load_object(clspath)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 76, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'books.pipelines' doesn't define any object named 'BooksPipeline'
+2025-05-09 14:36:52 [twisted] CRITICAL: Unhandled error in Deferred:
+2025-05-09 14:36:52 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 74, in load_object
+    obj = getattr(mod, name)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'books.pipelines' has no attribute 'BooksPipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\twisted\internet\defer.py", line 2017, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 152, in crawl
+    self.engine = self._create_engine()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 166, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\engine.py", line 102, in __init__
+    self.scraper: Scraper = Scraper(crawler)
+                            ^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\scraper.py", line 101, in __init__
+    self.itemproc: ItemPipelineManager = itemproc_cls.from_crawler(crawler)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 77, in from_crawler
+    return cls._from_settings(crawler.settings, crawler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 86, in _from_settings
+    mwcls = load_object(clspath)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 76, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'books.pipelines' doesn't define any object named 'BooksPipeline'
+2025-05-09 14:39:58 [twisted] CRITICAL: Unhandled error in Deferred:
+2025-05-09 14:39:58 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 74, in load_object
+    obj = getattr(mod, name)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'books.pipelines' has no attribute 'BooksPipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\twisted\internet\defer.py", line 2017, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 152, in crawl
+    self.engine = self._create_engine()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 166, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\engine.py", line 102, in __init__
+    self.scraper: Scraper = Scraper(crawler)
+                            ^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\scraper.py", line 101, in __init__
+    self.itemproc: ItemPipelineManager = itemproc_cls.from_crawler(crawler)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 77, in from_crawler
+    return cls._from_settings(crawler.settings, crawler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 86, in _from_settings
+    mwcls = load_object(clspath)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 76, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'books.pipelines' doesn't define any object named 'BooksPipeline'
+2025-05-09 14:40:01 [twisted] CRITICAL: Unhandled error in Deferred:
+2025-05-09 14:40:01 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 74, in load_object
+    obj = getattr(mod, name)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'books.pipelines' has no attribute 'BooksPipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\twisted\internet\defer.py", line 2017, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 152, in crawl
+    self.engine = self._create_engine()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 166, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\engine.py", line 102, in __init__
+    self.scraper: Scraper = Scraper(crawler)
+                            ^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\scraper.py", line 101, in __init__
+    self.itemproc: ItemPipelineManager = itemproc_cls.from_crawler(crawler)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 77, in from_crawler
+    return cls._from_settings(crawler.settings, crawler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 86, in _from_settings
+    mwcls = load_object(clspath)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 76, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'books.pipelines' doesn't define any object named 'BooksPipeline'
+2025-05-09 14:41:15 [twisted] CRITICAL: Unhandled error in Deferred:
+2025-05-09 14:41:15 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 74, in load_object
+    obj = getattr(mod, name)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'books.pipelines' has no attribute 'BooksPipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\twisted\internet\defer.py", line 2017, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 152, in crawl
+    self.engine = self._create_engine()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 166, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\engine.py", line 102, in __init__
+    self.scraper: Scraper = Scraper(crawler)
+                            ^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\scraper.py", line 101, in __init__
+    self.itemproc: ItemPipelineManager = itemproc_cls.from_crawler(crawler)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 77, in from_crawler
+    return cls._from_settings(crawler.settings, crawler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 86, in _from_settings
+    mwcls = load_object(clspath)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 76, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'books.pipelines' doesn't define any object named 'BooksPipeline'
+2025-05-09 14:41:41 [twisted] CRITICAL: Unhandled error in Deferred:
+2025-05-09 14:41:41 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 74, in load_object
+    obj = getattr(mod, name)
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'books.pipelines' has no attribute 'BooksPipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\twisted\internet\defer.py", line 2017, in _inlineCallbacks
+    result = context.run(gen.send, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 152, in crawl
+    self.engine = self._create_engine()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\crawler.py", line 166, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\engine.py", line 102, in __init__
+    self.scraper: Scraper = Scraper(crawler)
+                            ^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\core\scraper.py", line 101, in __init__
+    self.itemproc: ItemPipelineManager = itemproc_cls.from_crawler(crawler)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 77, in from_crawler
+    return cls._from_settings(crawler.settings, crawler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\middleware.py", line 86, in _from_settings
+    mwcls = load_object(clspath)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "E:\New folder\Web Scraping\venv\Lib\site-packages\scrapy\utils\misc.py", line 76, in load_object
+    raise NameError(f"Module '{module}' doesn't define any object named '{name}'")
+NameError: Module 'books.pipelines' doesn't define any object named 'BooksPipeline'
